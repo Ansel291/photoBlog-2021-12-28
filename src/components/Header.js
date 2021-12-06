@@ -9,7 +9,7 @@ export default function Header() {
         <StyledHeader>
             <Container>
                 <Nav>
-                    <Logo>Photo Travel Blog and Diary</Logo>
+                    <Logo>Photo Travel Blog</Logo>
                     <Button><a href="mailto:jasahara@yahoo.com">Contact Us</a></Button>
                 </Nav>
                 <Flex>

@@ -10,26 +10,26 @@ export default function Footer() {
             <Container>
                 <Flex>
                     <ul>
-                        <li>Contact Me:</li>
+                        <li>Contact:</li>
                         <li>310-909-9358</li>
-                        <li>jasahara@yahoo.com</li>
+                        <li className="margin-bottom-none">jasahara@yahoo.com</li>
                     </ul>
                     <ul>
                         <li>About Me</li>
-                        <li>What I Do</li>
-                        <li>FAQ</li>
+                        <li>Services</li>
+                        <li className="margin-bottom-none">FAQ</li>
                     </ul>
 
                     <ul>
                         <li>Career</li>
                         <li>Blog</li>
-                        <li>Contact Us</li>
+                        <li className="margin-bottom-none">Contact Us</li>
                     </ul>
 
                     <SocialIcons/>
 
                 </Flex>
-                <p>&copy; 2021 Jason Asahara. All rights reserved</p>
+                <p>&copy; 2021 Jason Asahara. All rights reserved.</p>
             </Container>
         </StyledFooter>
     )

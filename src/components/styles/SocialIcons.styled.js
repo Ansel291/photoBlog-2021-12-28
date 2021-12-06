@@ -5,6 +5,7 @@ export const StyledSocialIcons = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 30px;
 
     li {
         list-style: none;
@@ -21,5 +22,9 @@ export const StyledSocialIcons = styled.div`
         height: 40px;
         width: 40px;
         text-decoration: none;
+    }
+
+    @media (min-width: ${({ theme }) => theme.tablet}) {
+        margin-bottom: 0;
     }
 `
