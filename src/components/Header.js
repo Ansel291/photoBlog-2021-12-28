@@ -1,0 +1,37 @@
+import React from 'react';
+import {StyledHeader, Nav, Logo, Image} from "./styles/Header.styled"
+import { Container } from './styles/Container.styled'
+import { Flex } from "./styles/Flex.styled"
+import { Button } from "./styles/Button.styled"
+
+export default function Header() {
+    return (
+        <StyledHeader>
+            <Container>
+                <Nav>
+                    <Logo>Photo Travel Blog and Diary</Logo>
+                    <Button><a href="mailto:jasahara@yahoo.com">Contact Us</a></Button>
+                </Nav>
+                <Flex>
+                    <div>
+                        <p>
+                            Featured Location:
+                        </p>
+                        <h1>Punta Cana, Dominican Republic</h1>
+                        <p>
+                            Hyatt Zilara Hotel
+                        </p>
+
+                        {/*
+                        <Button bg='#ff0099' color='#fff'>
+                            Get Started For Free
+                        </Button>
+                        */}
+                    </div>
+
+                    <Image src='./images/zilaraPuntaCanaDockOpt.png' alt='' />
+                </Flex>
+            </Container>
+        </StyledHeader>
+    )
+}
