@@ -13,8 +13,9 @@ export const StyledHeader = styled.header`
         color: #fff;
         text-shadow: 1px 1px 1px #7c7c7c;
         opacity: 1;
+        padding-right: 20px;
     }
-    
+
 `   
 
 export const Nav = styled.nav`

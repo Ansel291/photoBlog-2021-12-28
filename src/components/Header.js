@@ -14,19 +14,15 @@ export default function Header() {
                 </Nav>
                 <Flex>
                     <div>
+                        
                         <p>
                             Featured Location:
                         </p>
                         <h1>Punta Cana, Dominican Republic</h1>
                         <p>
-                            Hyatt Zilara Hotel
+                            The deck along the powdery white beach of the Hyatt Zilara Resort.
                         </p>
 
-                        {/*
-                        <Button bg='#ff0099' color='#fff'>
-                            Get Started For Free
-                        </Button>
-                        */}
                     </div>
 
                     <Image src='./images/zilaraPuntaCanaDockOpt.png' alt='' />

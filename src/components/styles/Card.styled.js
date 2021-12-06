@@ -9,15 +9,7 @@ export const StyledCard = styled.div`
     margin: 40px 0;
     padding: 0px 25px 25px;
     text-align: center;
-    
-    {/* 
-    h2,
-    p {
-        text-align: center;
-    }
-    */}
-    
-    
+        
     img{
         margin-top: 5px;
         border-radius: 2px;
