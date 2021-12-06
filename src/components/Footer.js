@@ -10,7 +10,7 @@ export default function Footer() {
             <Container>
                 <Flex>
                     <ul>
-                        <li>Contact:</li>
+                        <li>Los Angeles, CA</li>
                         <li>310-909-9358</li>
                         <li className="margin-bottom-none">jasahara@yahoo.com</li>
                     </ul>
