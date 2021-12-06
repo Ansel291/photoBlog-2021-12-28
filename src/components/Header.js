@@ -10,7 +10,7 @@ export default function Header() {
             <Container>
                 <Nav>
                     <Logo>Photo Travel Blog</Logo>
-                    <Button><a href="mailto:jasahara@yahoo.com">Contact Us</a></Button>
+                    <Button as="a" href="mailto:jasahara@yahoo.com">Contact Us</Button>
                 </Nav>
                 <Flex>
                     <div>
