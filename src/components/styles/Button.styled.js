@@ -18,6 +18,5 @@ export const Button = styled.button`
         background-color: #fff;
         transform: scale(0.98);
         color: #3a3a3a;
-    }
-    
+    }    
 `
