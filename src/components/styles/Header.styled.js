@@ -13,7 +13,14 @@ export const StyledHeader = styled.header`
         color: #fff;
         text-shadow: 1px 1px 1px #7c7c7c;
         opacity: 1;
-        padding-right: 20px;
+    }
+
+    @media(min-width: ${({ theme }) => theme.tablet}) {
+        
+        p {
+            padding-right: 20px;
+        }
+
     }
 
 `   
@@ -23,7 +30,7 @@ export const Nav = styled.nav`
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 40px;
+    margin-bottom: 35px;
      
     @media(min-width: ${({ theme }) => theme.tablet}) {
         flex-direction: row;
@@ -33,7 +40,7 @@ export const Nav = styled.nav`
 export const Logo = styled.div`
     font-size: 0.95em;
     text-shadow: 1px 1px 1px #7c7c7c;
-    margin-bottom: 40px;
+    margin-bottom: 15px;
     color: #fff;
 
     @media(min-width: ${({ theme }) => theme.tablet}) {
