@@ -15,10 +15,18 @@ export const StyledHeader = styled.header`
         opacity: 1;
     }
 
+    p:nth-of-type(1) {
+        display: none;
+    }
+
     @media(min-width: ${({ theme }) => theme.tablet}) {
         
         p {
             padding-right: 20px;
+        }
+
+        p:nth-of-type(1) {
+            display: block;
         }
 
     }
@@ -39,6 +47,8 @@ export const Nav = styled.nav`
 
 export const Logo = styled.div`
     font-size: 0.95em;
+    font-weight: 700;
+    text-transform: uppercase;
     text-shadow: 1px 1px 1px #7c7c7c;
     margin-bottom: 15px;
     color: #fff;
