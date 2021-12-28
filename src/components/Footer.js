@@ -6,7 +6,7 @@ import { StyledFooter } from "./styles/Footer.styled"
 
 export default function Footer() {
     return (
-        <StyledFooter>
+        <StyledFooter id="contact">
             <Container>
                 <Flex>
                     <ul>
@@ -29,7 +29,7 @@ export default function Footer() {
                     <SocialIcons/>
 
                 </Flex>
-                <p>&copy; 2021 Jason Asahara. All rights reserved.</p>
+                <p>&copy; {new Date().getFullYear()} Jason Asahara. All rights reserved.</p>
             </Container>
         </StyledFooter>
     )
