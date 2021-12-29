@@ -9,7 +9,7 @@ export const HeroBtn = styled(Link)`
     border-radius: 50px;
     background:  ${({primary}) => (primary ? '#01b6bf' : '#010606')};
     padding: ${({big}) => (big ? '14px 48px' : '12px 30px')};
-    color: ${({dark}) => (dark ? '#010606' : '#e3e3e3')};
+    color: ${({dark}) => (dark ? '#010606' : '#f7f7f7')};
     font-size: ${({fontbig}) => (fontbig ? '20px' : '14px')};
     white-space: nowrap;
     outline: none;
@@ -21,6 +21,7 @@ export const HeroBtn = styled(Link)`
     
     &:hover {
         background:  ${({primary}) => (primary  ? '#fff' : '#01b6bf')};
+        color: ${({dark}) => (dark ? '#e3e3e3' : '#010606')};
     }
 
     @media(min-width: ${({ theme }) => theme.tablet}) {

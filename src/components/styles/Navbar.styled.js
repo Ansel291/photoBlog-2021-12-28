@@ -67,7 +67,7 @@ export const MobileIcon = styled.div`
     top: 0;
     right: 0;
     transform: translate(-100%, 60%);
-    font-size 1.8rem;
+    font-size 1.6rem;
     cursor: pointer;
     
     @media(min-width: ${({ theme }) => theme.tablet}) {

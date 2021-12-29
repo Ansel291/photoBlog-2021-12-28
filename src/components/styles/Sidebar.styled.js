@@ -26,7 +26,7 @@ export const SidebarIcon = styled.div`
     top: 1.2rem;
     right: 1.5rem;
     background: transparent;
-    font-size: 2rem;
+    font-size: 1.8rem;
     cursor: pointer;
     outline: none;
 `
