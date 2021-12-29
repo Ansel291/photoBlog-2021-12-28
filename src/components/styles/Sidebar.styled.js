@@ -55,7 +55,7 @@ export const SidebarLink = styled(LinkS)`
     cursor: pointer;
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 22px;
+    font-size: 21px;
     letter-spacing: 0.2px;
 
     &:hover {
