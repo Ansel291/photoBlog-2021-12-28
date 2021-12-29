@@ -65,7 +65,7 @@ export const SiYourtraveldottv = styled.div`
 export const MobileIcon = styled.div`
     position: absolute;
     top: 1.25px;
-    right: 0;
+    right: -3px;
     transform: translate(-100%, 60%);
     font-size 1.6rem;
     cursor: pointer;
