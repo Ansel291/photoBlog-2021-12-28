@@ -23,23 +23,12 @@ const Hero = ({primary, big, dark, fontbig}) => {
     return (
         <HeroContainer id="home">
             <HeroBackground>
-                
-                {/* <VideoBackground autoPlay={true} loop={true} controls={false}  playsInline muted src={Video} type='video/mp4' /> */}
-
                 <div className="hero-video-wrapper" dangerouslySetInnerHTML={{ __html: `<video loop muted autoplay playsinline src="${Video}" class="hero-video-background"/>,` }}>
                 </div>
-                
-                {/*
-                <div className="hero-video-wrapper">
-                    <div dangerouslySetInnerHTML={{ __html: `<video loop muted autoplay playsinline src="${Video}" class="hero-video-background"/>,` }}>
-                    </div>
-                </div>
-                */}
-
             </HeroBackground>
             <HeroContent>
                 <HeroH1>Travel Blog</HeroH1>
-                <HeroP>Follow along and see where i've gone recently.</HeroP>
+                <HeroP>Follow along and see our Adventures</HeroP>
                 <HeroBtnWrapper>
                     <HeroBtn to='locations' onMouseEnter={onHover} onMouseLeave={onHover} primary={primary ? 1 : 0} big={big ? 1 : 0} dark={dark ? 1 : 0} fontbig={fontbig ? 1 : 0} smooth={true} duration={500} spy={true} exact='true' offset={-70} >
                         see travels { hover ? <ArrowForward /> : <ArrowRight /> }

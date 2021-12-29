@@ -59,6 +59,7 @@ export const HeroH1 = styled.h1`
     font-size: 32px;
     text-align: center;
     letter-spacing: 0.75px;
+    margin-bottom: 5px;
 
     @media(min-width: ${({ theme }) => theme.mobile}) {
         font-size: 40px;
@@ -66,18 +67,19 @@ export const HeroH1 = styled.h1`
 
     @media(min-width: ${({ theme }) => theme.tablet}) {
         font-size: 50px;
-        margin-bottom: 15px;
+        margin-bottom: 12px;
     }
 `
 
 export const HeroP = styled.p`
-    margin-top: 24px;
+    margin: 24px 0 5px;
     color: #fff;
     font-size: 18px;
     text-align: center;
     max-width: 600px;
 
     @media(min-width: ${({ theme }) => theme.tablet}) {
+        margin-bottom: 12px;
         font-size: 20px;
     }
 `

@@ -25,21 +25,41 @@ export const NavbarContainer = styled.div`
     max-width: 1000px;
 `
 
-export const NavLogo = styled(LinkR)`
+export const NavLogoContainer = styled(LinkR)`
     color: #e3e3e3;
-    justify-self: flex-start;
-    cursor: pointer;
-    font-size: 1rem;
-    display: flex;
+    display: flex;;
+    justify-content: center;
     align-items: center;
-    font-weight: 700;
+    cursor: pointer;
     text-decoration: none;
+`
+
+export const NavLogoIconContainer = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    margin-right: 4px;
+
+    @media(min-width: ${({ theme }) => theme.tablet}) {
+        font-size: 1.5rem;
+    }
+`
+
+export const NavLogoText = styled.div`
+    font-size: 1rem;
+    font-weight: 700;
     letter-spacing: 0.1px;
-    /* display: none; */
+    display: none;
 
     @media(min-width: ${({ theme }) => theme.tablet}) {
         font-size: 1.25rem;
+        display: block;
     }
+`
+
+export const SiYourtraveldottv = styled.div`
+    font-size: 2rem;
 `
 
 export const MobileIcon = styled.div`
@@ -60,7 +80,7 @@ export const NavMenu = styled.ul`
     align-items: center;
     list-style: none;
     text-align: center;
-    margin-right: 1.5%;
+    margin-right: 4.5%;
     text-transform: uppercase;
     font-weight: 500;
 

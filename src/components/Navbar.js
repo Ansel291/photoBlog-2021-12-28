@@ -1,11 +1,14 @@
 import React, {useState, useEffect} from 'react';
 import { FaBars } from 'react-icons/fa'
+import { SiYourtraveldottv } from 'react-icons/si'
 import {IconContext} from 'react-icons/lib'
 import {animateScroll as Scroll} from 'react-scroll'
 import { 
     StyledNav, 
     NavbarContainer, 
-    NavLogo, 
+    NavLogoContainer,
+    NavLogoIconContainer,
+    NavLogoText,
     MobileIcon, 
     NavMenu, 
     NavItem, 
@@ -19,7 +22,7 @@ const Navbar = ({toggle}) => {
     const [isTransparent, setTransparent] = useState(false)
 
     const changeNav = () => {
-        if(window.scrollY >= 80) {
+        if(window.scrollY >= 10) {
             setTransparent(true)
         } else {
             setTransparent(false)
@@ -39,9 +42,12 @@ const Navbar = ({toggle}) => {
             <IconContext.Provider value={{ color: '#e3e3e3' }}>
                 <StyledNav isTransparent={isTransparent}>
                     <NavbarContainer>
-                        <NavLogo to="/" onClick={scrollHome} >
-                            Travel Blog
-                        </NavLogo>
+                        <NavLogoContainer to="/" onClick={scrollHome} >
+                            <NavLogoIconContainer>
+                                <SiYourtraveldottv/>
+                            </NavLogoIconContainer>
+                            <NavLogoText>Travel Blog</NavLogoText>
+                        </NavLogoContainer>
                         <MobileIcon onClick={toggle}>
                             <FaBars />
                         </MobileIcon>
