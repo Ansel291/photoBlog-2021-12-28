@@ -22,7 +22,7 @@ const Hero = ({primary, big, dark, fontbig}) => {
     return (
         <HeroContainer id="home">
             <HeroBackground>
-                <VideoBackground autoPlay muted loop playsinline src={Video} type='video/mp4' />
+                <VideoBackground autoPlay={true} loop={true} controls={false}  playsInline muted src={Video} type='video/mp4' />
             </HeroBackground>
             <HeroContent>
                 <HeroH1>Travel Blog</HeroH1>
