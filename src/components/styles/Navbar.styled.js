@@ -64,7 +64,7 @@ export const SiYourtraveldottv = styled.div`
 
 export const MobileIcon = styled.div`
     position: absolute;
-    top: 0;
+    top: 1.25px;
     right: 0;
     transform: translate(-100%, 60%);
     font-size 1.6rem;
@@ -105,7 +105,7 @@ export const NavLinkS = styled(LinkS)`
     letter-spacing: 0.25px;
 
     &.active {
-        border-bottom: 3px solid #01b6bf;
+        border-bottom: 3px solid #65adb1;
     }
 `
 
@@ -123,10 +123,10 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLinkR = styled(LinkR)`
     border-radius: 50px;
-    background: #01b6bf;
+    background: #65adb1;
     white-space: nowrap;
     padding: 10px 22px;
-    color: #010606;
+    color: #f7f7f7;
     font-size: 14.5px;
     outline: none;
     border: none;

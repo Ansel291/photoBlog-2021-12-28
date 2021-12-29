@@ -7,7 +7,7 @@ export const HeroBtn = styled(Link)`
     align-items: center;
     transition: all 0.2s ease-in-out;
     border-radius: 50px;
-    background:  ${({primary}) => (primary ? '#01b6bf' : '#010606')};
+    background:  ${({primary}) => (primary ? '#65adb1' : '#010606')};
     padding: ${({big}) => (big ? '14px 48px' : '11px 30px')};
     color: ${({dark}) => (dark ? '#010606' : '#f7f7f7')};
     font-size: ${({fontbig}) => (fontbig ? '20px' : '14px')};

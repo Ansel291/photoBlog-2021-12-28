@@ -9,7 +9,7 @@ export const FormContainer = styled.div`
     top: 0;
     z-index: 0;
     overflow: hidden;
-    background: #009fa7;
+    background: #65adb1;
     justify-content: center;
     align-items: center;
 `
@@ -72,12 +72,12 @@ export const Form = styled.form`
     z-index: 1;
     display: grid;
     margin: 0 auto;
-    padding: 32px;
+    padding: 20px 32px 50px;
     border-radius: 4px;
     box-shadow: 0 1px 3px rgba(0,0,0, 0.9);
 
     @media(min-width: 401px) {
-        padding: 80px 32px;
+        padding: 40px 32px 100px;
     }
 `
 
@@ -104,7 +104,7 @@ export const FormInput = styled.input`
 `
 
 export const FormButton = styled.button`
-    background: #01b6bf;
+    background: #65adb1;
     padding: 16px 0;
     border: none;
     border-radius: 4px;
