@@ -1,9 +1,12 @@
 import React from 'react'
+import { SiYourtraveldottv } from 'react-icons/si'
 import { 
     FormContainer,
     FormWrap,
     FormIconWrapper,
-    Icon,
+    FormLink,
+    FormLogoIconContainer,
+    FormLogoText, 
     FormContent, 
     Form,
     FormH1, 
@@ -19,7 +22,12 @@ const Signin = () => {
             <FormContainer>
                 <FormWrap>
                     <FormIconWrapper>
-                        <Icon to='/'>travel blog</Icon>
+                        <FormLink to='/'>
+                            <FormLogoIconContainer>
+                                <SiYourtraveldottv/>
+                            </FormLogoIconContainer>
+                            <FormLogoText>Travel Blog</FormLogoText>
+                        </FormLink>
                     </FormIconWrapper>
                     <FormContent>
                         <Form action='#'>

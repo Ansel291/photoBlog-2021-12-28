@@ -40,10 +40,6 @@ export const SidebarMenu = styled.ul`
     grid-template-rows: repeat(3, 70px);
     text-align: center;
     margin-bottom: 45px;
-
-    @media(min-width: ${({ theme }) => theme.tablet}) {
-        grid-template-rows: repeat(4, 80px);
-    }
 `
 
 export const SidebarLink = styled(LinkS)`
@@ -63,7 +59,7 @@ export const SidebarLink = styled(LinkS)`
     letter-spacing: 0.2px;
 
     &:hover {
-        color: #01bf71;
+        color: #01b6bf;
     }
 `
 export const SideBtnWrap = styled.div`

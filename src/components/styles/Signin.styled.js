@@ -9,7 +9,7 @@ export const FormContainer = styled.div`
     top: 0;
     z-index: 0;
     overflow: hidden;
-    background: #65adb1;
+    background: #01b6bf;
     justify-content: center;
     align-items: center;
 `
@@ -39,7 +39,9 @@ export const FormIconWrapper = styled.div`
     } 
 `
 
-export const Icon = styled(Link)`
+export const FormLink = styled(Link)`
+    display: flex;
+    align-items: center;
     text-decoration: none;
     color: #fff;
     font-weight: 700;
@@ -49,6 +51,25 @@ export const Icon = styled(Link)`
 
     @media(min-width: ${({ theme }) => theme.tablet}) {
         font-size: 1.25rem;
+    } 
+`
+
+export const FormLogoIconContainer = styled.div`
+    display: flex;
+    margin-right: 4px;
+    font-size: 1.6rem;
+
+    @media(min-width: ${({ theme }) => theme.tablet}) {
+        font-size: 1.5rem;
+    } 
+
+`
+
+export const FormLogoText = styled.div`
+    display: none;
+
+    @media(min-width: ${({ theme }) => theme.tablet}) {
+        display: block;
     } 
 `
 
@@ -104,13 +125,17 @@ export const FormInput = styled.input`
 `
 
 export const FormButton = styled.button`
-    background: #65adb1;
-    padding: 16px 0;
+    font-family: 'Raleway', sans-serif;
+    background: #01b6bf;
+    padding: 15px 0;
     border: none;
     border-radius: 4px;
     color: #fff;
     font-size: 20px;
     cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.25px;
 `
 
 export const Text = styled.span`
