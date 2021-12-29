@@ -3,7 +3,7 @@ import Video from '../videos/video-large-opt.mp4'
 import { HeroBtn } from './styles/Button.styled'
 import {    HeroContainer, 
             HeroBackground, 
-            /* VideoBackground, */
+            /* VideoBackground */
             HeroContent, 
             HeroH1,
             HeroP,
@@ -25,9 +25,16 @@ const Hero = ({primary, big, dark, fontbig}) => {
             <HeroBackground>
                 
                 {/* <VideoBackground autoPlay={true} loop={true} controls={false}  playsInline muted src={Video} type='video/mp4' /> */}
-                
-                <div dangerouslySetInnerHTML={{ __html: `<video loop muted autoplay playsinline src="${Video}" class="hero-video-background"/>,` }}>
+
+                <div className="hero-video-wrapper" dangerouslySetInnerHTML={{ __html: `<video loop muted autoplay playsinline src="${Video}" class="hero-video-background"/>,` }}>
                 </div>
+                
+                {/*
+                <div className="hero-video-wrapper">
+                    <div dangerouslySetInnerHTML={{ __html: `<video loop muted autoplay playsinline src="${Video}" class="hero-video-background"/>,` }}>
+                    </div>
+                </div>
+                */}
 
             </HeroBackground>
             <HeroContent>
