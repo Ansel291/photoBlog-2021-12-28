@@ -37,7 +37,7 @@ export const SidebarWrapper = styled.div`
 export const SidebarMenu = styled.ul`
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 60px);
+    grid-template-rows: repeat(3, 70px);
     text-align: center;
     margin-bottom: 45px;
 
