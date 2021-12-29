@@ -10,6 +10,7 @@ import {    HeroContainer,
             HeroBtnWrapper,
             ArrowForward,
             ArrowRight } from './styles/Hero.styled'
+import './styles/css/HeroVideo.css'
 
 const Hero = ({primary, big, dark, fontbig}) => {
 
@@ -25,14 +26,7 @@ const Hero = ({primary, big, dark, fontbig}) => {
                 
                 {/* <VideoBackground autoPlay={true} loop={true} controls={false}  playsInline muted src={Video} type='video/mp4' /> */}
                 
-                <div dangerouslySetInnerHTML={{ __html: `
-                    <video
-                        loop
-                        muted
-                        autoplay
-                        playsinline
-                        src="${Video}"
-                    />,` }}>
+                <div dangerouslySetInnerHTML={{ __html: `<video loop muted autoplay playsinline src="${Video}" class="hero-video-background"/>,` }}>
                 </div>
 
             </HeroBackground>
