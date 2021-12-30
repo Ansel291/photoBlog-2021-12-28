@@ -9,7 +9,7 @@ const theme = {
   colors: {
     header: '-webkit-linear-gradient(360deg,#949494 10%,#efefef 360%); linear-gradient(360deg,#949494 10%,#efefef 360%);',
     body: '#fff',
-    footer:  '#000',
+    footer:  '#0c0c0c',
   }, 
   mobile: '481px',
   tablet: '769px',
