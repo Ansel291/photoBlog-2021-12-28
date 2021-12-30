@@ -6,6 +6,11 @@ const GlobalStyles = createGlobalStyle`
         box-sizing: border-box;
     }
 
+    :root {
+        --offWhite: #e3e3e3;
+        --primaryColor: #01b6bf;
+    }
+
     body {
         background: ${({theme}) => theme.colors.body};
         color: hsl(192, 100%, 9%);

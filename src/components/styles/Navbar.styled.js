@@ -26,7 +26,7 @@ export const NavbarContainer = styled.div`
 `
 
 export const NavLogoContainer = styled(LinkR)`
-    color: #e3e3e3;
+    color: var(--offWhite);
     display: flex;;
     justify-content: center;
     align-items: center;
@@ -94,7 +94,7 @@ export const NavItem = styled.li`
 `
 
 export const NavLinkS = styled(LinkS)`
-    color: #e3e3e3;
+    color: var(--offWhite);
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -105,7 +105,7 @@ export const NavLinkS = styled(LinkS)`
     letter-spacing: 0.25px;
 
     &.active {
-        border-bottom: 3px solid #01b6bf;
+        border-bottom: 3px solid var(--primaryColor);
     }
 `
 
@@ -123,7 +123,7 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLinkR = styled(LinkR)`
     border-radius: 50px;
-    background: #01b6bf;
+    background: var(--primaryColor);
     white-space: nowrap;
     padding: 10px 22px;
     color: #f7f7f7;

@@ -12,9 +12,9 @@ export const StyledSocialIcons = styled.div`
     }
     
     a {
-        border: 1px solid #e3e3e3;
+        border: 1px solid var(--offWhite);
         border-radius: 50%;
-        color: #e3e3e3;
+        color: var(--offWhite);
         display: inline-flex;
         align-items: center;
         justify-content: center;

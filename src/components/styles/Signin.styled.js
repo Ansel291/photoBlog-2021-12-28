@@ -9,7 +9,7 @@ export const FormContainer = styled.div`
     top: 0;
     z-index: 0;
     overflow: hidden;
-    background: #01b6bf;
+    background: var(--primaryColor);
     justify-content: center;
     align-items: center;
 `
@@ -126,7 +126,7 @@ export const FormInput = styled.input`
 
 export const FormButton = styled.button`
     font-family: 'Raleway', sans-serif;
-    background: #01b6bf;
+    background: var(--primaryColor);
     padding: 15px 0;
     border: none;
     border-radius: 4px;
