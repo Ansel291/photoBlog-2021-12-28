@@ -1,4 +1,3 @@
-
 # Travel Blog App - v2
 
 ## Overview:
@@ -9,10 +8,11 @@ This is an update from the first iteration of my [Photo Blog App ](https://photo
 
 Development: | NPM Packages: | Deployment:
 ----| ---| ---
-React.js | styled-components | Netlify 
-CSS | react-router-dom | |
-HTML5 | react-scroll | |
-Github | react-icons | |
+React.js | create-react-app | Netlify 
+CSS | styled-components | |
+HTML5 | react-router-dom | |
+Github | react-scroll  | |
+| | react-icons | |
 
 ## Deployment / Production URL:
 
@@ -37,18 +37,17 @@ https://photo-blog-ja-v2.netlify.app/
 - Added Scroll Functionality
 - Overall Aesthetic design update
 
+
 ## Inspiration:
 This app is based on Brian Design's tutorial
 
 - [React Website using Styled Components and Smooth Scroll - Beginner Project Fully Responsive](https://www.youtube.com/watch?v=Nl54MJDR2p8)
-
 
 ## Created & Photography By:
 
 **Name** | **GitHub** | **Email** 
 ---------| ---------- | ---------
 Jason Asahara | [GitHub](https://github.com/Ansel291) | [jasahara@yahoo.com](jasahara@yahoo.com)
-
 
 ## Upcoming Features:
 - RestAPI
