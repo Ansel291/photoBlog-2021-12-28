@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import Video from '../videos/video-large-opt.mp4'
+import Video from '../videos/video-small-opt.mp4'
 import { HeroBtn } from './styles/Button.styled'
 import {    HeroContainer, 
             HeroBackground, 
