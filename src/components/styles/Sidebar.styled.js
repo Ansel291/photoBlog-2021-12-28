@@ -73,7 +73,7 @@ export const SidebarRoute = styled(LinkR)`
     white-space: nowrap;
     padding: 16px 64px;
     color: #010606;
-    font-size: 17px;
+    font-size: 16px;
     outline: none;
     border: none;
     cursor: pointer;
@@ -82,6 +82,7 @@ export const SidebarRoute = styled(LinkR)`
     text-transform: capitalize;
     text-transform: uppercase;
     font-weight: 500;
+    letter-spacing: 0.2px;
 
     &:hover {
         background: #fff;

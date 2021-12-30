@@ -31,11 +31,11 @@ export const FormIconWrapper = styled.div`
     display: flex;
     justify-content: start;
     align-items: center;
-    height: 81px;
+    height: 70px;
     padding: 0 24px;
 
     @media(min-width: ${({ theme }) => theme.tablet}) {
-        height: 79px;
+        height: 70px;
     } 
 `
 
