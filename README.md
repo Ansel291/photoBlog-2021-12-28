@@ -1,9 +1,9 @@
+
 # Travel Blog App - v2
 
 ## Overview:
 
 This is an update from the first iteration of my [Photo Blog App ](https://photo-blog-ja.netlify.app/) where my goal was to expand the UI and the overall aesthetics of the page.  I found the first iteration to be farely cut & dry, and a bit boring.
-
 ## Tech Stack:
 
 Development: | NPM Packages: | Deployment:
@@ -17,6 +17,8 @@ Visual Studio| react-icons |  |
 ## Deployment / Production URL:
 
 https://photo-blog-ja-v2.netlify.app/
+
+
 
 
 ## Design:
@@ -52,6 +54,7 @@ Jason Asahara | [GitHub](https://github.com/Ansel291) | [jasahara@yahoo.com](jas
 
 
 ## Upcoming Features:
+- Add Like / Total Likes Functionality
 - RestAPI
 - CRUD Functionality
 - Login Authorization
